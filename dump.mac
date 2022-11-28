@@ -1,0 +1,18 @@
+# $Id$
+#
+# Macro file for "Artie.cc"
+# (can be run in batch, without graphic)
+#
+# neutron 2 MeV; all processes
+#
+/random/setSeeds 364264876 673418543
+/control/verbose 2
+/run/verbose 2
+/tracking/verbose 0
+
+# this will dump the entire list of commands:
+#/control/manual /
+
+# just our commands:
+/control/manual /artie
+
